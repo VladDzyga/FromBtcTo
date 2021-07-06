@@ -1,0 +1,112 @@
+body{
+	background-color: PaleTurquoise;
+	margin: 0;
+}
+#header{
+	display: flex;
+	background-color: rgb(255, 255, 50);
+	border-radius: 0px 0px 15px 15px;
+}
+.header_title{
+	font-family: cursive;
+	padding: 20px 100px 20px 10px;
+	margin: 0;
+}
+.autho_mess{
+	text-align: center;
+	font-size: 16pt;
+}
+#login_block{
+	border: 3px solid white;
+	border-radius: 5px;
+	background-color: lightgrey;
+	padding: 15px;
+	margin-top: 100px;
+}
+h2{
+	text-align: center;
+	margin: 0;
+}
+.input_title{
+	margin-bottom: 5px;
+}
+input{
+	width: 200px;
+}
+.form_butt{
+	font-size: 12pt;
+	padding: 3px 0px;
+	width: 100%;
+}
+.reg_mess{
+	font-size: 10pt;
+	margin: 0;
+}
+.error_text{
+	font-size: 9pt;
+	color: red;
+	margin: 0;
+}
+.text{
+	padding-top: 50px;
+	margin: auto;
+}
+.exit{
+	width: 70px;
+	font-size: 12pt;
+	text-align: center;
+	margin: 0;
+	background-color: red;
+	border: 2px solid darkred;
+	border-radius: 0 0 15px 0;
+}
+.exit a{
+	color: black;
+
+}
+#header_h2{
+	display: flex; 
+	justify-content: space-between;
+	width:100%
+}
+
+#panel{
+	display: flex;
+	justify-content: center;
+	margin-top: 20px;
+}
+#conv{
+	width: 23%;
+	background-color: lightgray;
+	border: 3px solid white;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+}
+#curr{
+	width: 15%;
+	background-color: lightgray;
+	border: 3px solid white;
+	border-radius: 5px;
+	padding: 10px;
+	margin: 10px;
+}
+.Inp_search{
+	width: 80px;
+}
+.conv_field{
+	text-align: center;
+}
+.numInp{
+	width: 100px;
+}
+.listField{
+	overflow-y: scroll;
+	height: 100px;
+	border: 4px groove Gainsboro; 
+	background-color: white;
+	list-style-type: none;
+	font-size: 12pt;
+	padding-left: 10px;
+	line-height: 25px;
+}
